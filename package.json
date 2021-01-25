@@ -1,0 +1,22 @@
+{
+  "name": "quiz",
+  "version": "1.0.0",
+  "description": "Super Quiz-App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m-schwald/quiz.git"
+  },
+  "author": "Maize",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/m-schwald/quiz/issues"
+  },
+  "homepage": "https://github.com/m-schwald/quiz#readme",
+  "dependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
