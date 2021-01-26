@@ -2,18 +2,24 @@
 
 /* HOME  */
 .question {
-    background: rgba(47, 79, 79, 0.98);
+    background: var(--one);
     margin: 1rem 0;
     display: flex;
     flex-flow: column wrap;
-    width: 80vw;
-    height: auto;
+    width: 300px;
+    
     align-items: center;
     padding: .5rem;
     text-align: center;
     border-radius: 1rem;
-    border: inset lightgrey 2px;    
+    border: inset var(--two) 2px;    
 }
+
+ @media(min-width: 500px){
+    .question {
+        width: 500px;
+    }
+} 
 
 .question>p {
     padding:1rem;
@@ -25,15 +31,17 @@
 }
 
 details {
-    background: lightgray;
-    border: black solid 1px;
+    background: var(--two);
+    border: var(--four) solid 1px;
     padding: .3rem;
     margin: .5rem;
     border-radius: 5px;
+    
 }
 
 details>summary {
     cursor: pointer;
+    color: var(--four);
 }
 
 details>p {

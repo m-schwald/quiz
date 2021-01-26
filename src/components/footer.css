@@ -5,15 +5,15 @@ footer {
     align-items:center;
     justify-content: space-around;
     flex-flow: row wrap;
-    background:rgba(0,0,0,0.95);;
-    color:white;
+    background:var(--four);
+    color:var(--five);
     width: 100vw;
     height: 2.5rem; 
     position:fixed;
     bottom: 0;
 }
 .footer-link{
-    color: darkslategray;
+    color: var(--one);
     
 }
 
@@ -22,5 +22,5 @@ footer {
 }
 
 .footer-link>.active{
-    color: white;
+    color: var(--five);
 }

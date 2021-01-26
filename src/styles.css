@@ -1,7 +1,9 @@
-@import "components/base.css";
-@import "components/main.css";
-@import "components/question.css";
-@import "components/header.css";
-@import "components/footer.css";
-@import "components/form.css";
-@import "components/profile.css";
+
+
+@import "./components/base.css";
+@import "./components/main.css";
+@import "./components/header.css";
+@import "./components/question.css";
+@import "./components/footer.css";
+@import "./components/form.css";
+@import "./components/profile.css";

@@ -2,39 +2,51 @@
 /* NEW PAGE */
 
 .container .form {
-    background: rgba(47, 79, 79, 0.98);
+    background: var(--one);
     margin: 1rem 0;
     display: flex;
     flex-flow: column wrap;
     width: 80vw;
     height: auto;
-    align-items: flex-start;
     padding: .5rem;
-    text-align: center;
     border-radius: 1rem;
-    border: inset lightgrey 2px;
+    border: inset var(--two) 2px;
 }
 
-.form>label{
+
+.form--flex {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding:0 .5rem;
+}
+.form--flex>p{
+    color:var(--three);
+}
+
+.form label{
     font-weight: 600;
     margin-left: .5rem;
-    color:lightgrey;
+    color:var(--two);
 }
 
-.form>input {
+.form>textarea {
     width: 100%;
     height: 10vh;
-    background:lightgrey;
+    background:var(--two);
     border-radius: 5px;
     padding: .5rem;
+    color:var(--four);
 }
 
 .form>p {
     align-self:flex-end;
 }
 
+
+
 .submit {
-    background: rgba(47, 79, 79, 0.98);
+    background: var(--one);
     padding: 1rem;
     border-radius: 1rem;
     color:white;

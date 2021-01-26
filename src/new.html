@@ -21,19 +21,25 @@
 
     <main class="container">
         <section class="form">
-            <p>🤔</p>
-            <label for="add_question">add question</label>
-            <input type="text" name="add_question" placeholder="put your new question here">
+            <div class="form--flex"> 
+                <label for="add_question">add question</label>
+                <p>🤔</p>
+            </div>
+            <textarea name="add_question" placeholder="put your new question here" ></textarea>
         </section>
         <section class="form">
-            <p>🧐</p>
-            <label for="add_answer">add answer</label>
-            <input type="text" name="add_answer" placeholder="put your answer here">
+             <div class="form--flex">
+                <label for="add_answer">add answer</label>
+                <p>🧐</p>
+             </div>
+            <textarea name="add_answer" placeholder="put your answer here"></textarea>
         </section>
         <section class="form">
-            <p>#tags</p>
-            <label for="add_tags">add tags</label>
-            <input type="text" name="add_tags" placeholder="put your tags here">
+            <div class="form--flex">
+                <label for="add_tags">add tags</label>
+                <p class="color">⌗ </p>
+            </div>
+            <textarea name="add_tags" placeholder="put your tags here"></textarea>
         </section>
         <button class="submit" type="submit">submit</button>
     </main>

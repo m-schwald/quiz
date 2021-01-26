@@ -1,8 +1,8 @@
 
 /* HEADER */
 header{
-    background:rgba(0,0,0,0.93);
-    color: white;
+    background-color: var(--four);
+    color: var(--five);
     padding: 1rem 0 0 0;
     margin: 0 auto;
     position:fixed;
@@ -19,4 +19,10 @@ header{
         font-size: .7rem; 
         padding: .5rem;
     } 
+}
+
+header>div {
+    border-left: var(--three) dotted 5px;
+    border-right: var(--three) dotted 5px;
+    padding: 0 .5rem;
 }

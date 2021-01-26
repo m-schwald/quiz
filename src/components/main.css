@@ -2,17 +2,18 @@
 .container {
     margin-top: 5rem;
     display:grid;
+    grid-template-columns: repeat(auto-fill, 1000px)
     /* grid-template-columns: repeat(auto-fill, 2fr); */
     width: 100vw;
-    justify-content: center;
-    column-gap: 1rem;‚
+    justify-items:center;
+    grid-gap: 1rem;
+    padding-bottom: 3rem;
 }
 
 @media (min-width:1280px) {
     .container{
         display: flex;
         flex-wrap: wrap;
-        max-width: 30vw;
         margin: 7.5rem auto;
         justify-content: space-around;
     }

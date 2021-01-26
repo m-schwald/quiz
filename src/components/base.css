@@ -1,5 +1,11 @@
 
-
+:root{
+    --one: rgba(47, 79, 79, 0.947);
+    --two: lightgrey;
+    --three: yellow;
+    --four: rgba(0, 0, 0, 0.954);
+    --five: #ffffff;
+}
 * {
     margin:0;
     padding: 0;
@@ -10,7 +16,7 @@
 
 a{
     text-decoration: none;
-    color: white;
+    color: var(--five);
     font-weight: bold;
 }
 
@@ -21,7 +27,7 @@ body {
 }
 
 h3 {
-    color:lightgrey;
-   border-bottom: solid 1px yellow;
+    color:var(--two);
+   border-bottom: solid 1px var(--three);
    margin: .3rem;
 }

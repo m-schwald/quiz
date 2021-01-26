@@ -1,10 +1,23 @@
 
 /* PROFILE PAGE */
+.profile-container{
+    background: var(--one);
+    margin: 1rem 0;
+    display: flex;
+    flex-flow: column wrap;
+    width: 80vw;
+    height: auto;
+    align-items: center;
+    padding: .5rem;
+    text-align: center;
+    border-radius: 1rem;
+    border: inset var(--two) 2px;
+}
+
 .pic {
     display: flex;
     flex-flow:row wrap;
     justify-content: space-evenly;
-    
 }
 
 .pic>img {
@@ -17,3 +30,4 @@
     border:none;
     color:white;
 }
+
