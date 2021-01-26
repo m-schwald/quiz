@@ -1,0 +1,19 @@
+
+/* PROFILE PAGE */
+.pic {
+    display: flex;
+    flex-flow:row wrap;
+    justify-content: space-evenly;
+    
+}
+
+.pic>img {
+    max-width: 30vw;
+    border-radius: 50%;
+    border: inset white 1px;
+}
+
+.pic>h3 {
+    border:none;
+    color:white;
+}
