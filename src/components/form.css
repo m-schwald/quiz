@@ -11,6 +11,7 @@
     padding: .5rem;
     border-radius: 1rem;
     border: inset var(--two) 2px;
+    position:relative;
 }
 
 
@@ -19,9 +20,13 @@
     flex-flow: row wrap;
     justify-content: space-between;
     padding:0 .5rem;
+    
 }
-.form--flex>p{
-    color:var(--three);
+.form>p{
+    font-size:3rem;
+    position: absolute;
+    top: -1rem;
+    right: 1rem;
 }
 
 .form label{
@@ -39,11 +44,10 @@
     color:var(--four);
 }
 
-.form>p {
-    align-self:flex-end;
+.form:hover > p {
+    transform: rotate(-20deg);
+    
 }
-
-
 
 .submit {
     background: var(--one);
@@ -55,4 +59,17 @@
 
 .submit:hover {
     cursor: pointer;
+    color: var(--one);
+    background: var(--five);
+    border-color: var(--one);
+}
+
+.color{
+    width: 3.5rem;
+    height:3.5rem;
+    background: repeating-radial-gradient(yellow,
+     rgb(252, 125, 28));
+    border-radius: 50%;
+    border:2px solid rgb(255, 119, 0);
+    text-align:center;
 }

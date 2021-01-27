@@ -1,6 +1,6 @@
 
 :root{
-    --one: rgba(47, 79, 79, 0.947);
+    --one: rgba(47, 79, 79, 0.96);
     --two: lightgrey;
     --three: yellow;
     --four: rgba(0, 0, 0, 0.954);
@@ -21,8 +21,10 @@ a{
 }
 
 body {
-   background: url(https://images.unsplash.com/photo-1485809722779-439bb523521d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80); 
-  
+    background: linear-gradient(var(--four) 10%, transparent), url(https://images.unsplash.com/photo-1485809722779-439bb523521d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80);
+    background-repeat: no-repeat;
+    background-size:cover;
+    width:100vw;
     height: 100vh;
 }
 

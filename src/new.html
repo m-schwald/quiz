@@ -8,36 +8,59 @@
 </head>
 <body>
 
-    <header>
-        <div>
-            <h1>Quiz-App - new question</h1>
-            <h6>this is just wonderful</h6>
+    <header >
+        <div  class="z-100">
+            <h1>-=CQ=- new question</h1>
+            <div class="subheader">
+                <h6>got a question?</h6>
+                <h6>got the answer!</h6>
+            </div>
         </div>
-        <marquee scrollamount="3">
+        <div class="loader loader--style8" title="7">
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+               width="100px" height="50px" viewBox="0 0 24 30" style="enable-background:new 0 0 50 50;" xml:space="preserve">
+              <rect x="0" y="10" width="4" height="10" fill="#333" opacity="0.2">
+                <animate attributeName="opacity" attributeType="XML" values="0.2; 1; .2" begin="0s" dur="0.6s" repeatCount="indefinite" />
+                <animate attributeName="height" attributeType="XML" values="10; 20; 10" begin="0s" dur="0.6s" repeatCount="indefinite" />
+                <animate attributeName="y" attributeType="XML" values="10; 5; 10" begin="0s" dur="0.6s" repeatCount="indefinite" />
+              </rect>
+              <rect x="8" y="10" width="4" height="10" fill="#333"  opacity="0.2">
+                <animate attributeName="opacity" attributeType="XML" values="0.2; 1; .2" begin="0.15s" dur="0.6s" repeatCount="indefinite" />
+                <animate attributeName="height" attributeType="XML" values="10; 20; 10" begin="0.15s" dur="0.6s" repeatCount="indefinite" />
+                <animate attributeName="y" attributeType="XML" values="10; 5; 10" begin="0.15s" dur="0.6s" repeatCount="indefinite" />
+              </rect>
+              <rect x="16" y="10" width="4" height="10" fill="#333"  opacity="0.2">
+                <animate attributeName="opacity" attributeType="XML" values="0.2; 1; .2" begin="0.3s" dur="0.6s" repeatCount="indefinite" />
+                <animate attributeName="height" attributeType="XML" values="10; 20; 10" begin="0.3s" dur="0.6s" repeatCount="indefinite" />
+                <animate attributeName="y" attributeType="XML" values="10; 5; 10" begin="0.3s" dur="0.6s" repeatCount="indefinite" />
+              </rect>
+            </svg>
+          </div>
+      <!--   <marquee scrollamount="3">
             ☝️
-        </marquee>
+        </marquee> -->
         
     </header>
 
     <main class="container">
         <section class="form">
+            <p>🤔</p>
             <div class="form--flex"> 
                 <label for="add_question">add question</label>
-                <p>🤔</p>
             </div>
             <textarea name="add_question" placeholder="put your new question here" ></textarea>
         </section>
         <section class="form">
+            <p>🧐</p>
              <div class="form--flex">
                 <label for="add_answer">add answer</label>
-                <p>🧐</p>
              </div>
             <textarea name="add_answer" placeholder="put your answer here"></textarea>
         </section>
         <section class="form">
+            <p class="color">⌗ </p>
             <div class="form--flex">
                 <label for="add_tags">add tags</label>
-                <p class="color">⌗ </p>
             </div>
             <textarea name="add_tags" placeholder="put your tags here"></textarea>
         </section>

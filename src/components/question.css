@@ -2,7 +2,7 @@
 
 /* HOME  */
 .question {
-    background: var(--one);
+    background: var(--one) ;
     margin: 1rem 0;
     display: flex;
     flex-flow: column wrap;
@@ -13,6 +13,7 @@
     text-align: center;
     border-radius: 1rem;
     border: inset var(--two) 2px;    
+    position: relative;
 }
 
  @media(min-width: 500px){
@@ -27,7 +28,26 @@
 }
 
 .question>i {
-    align-self: flex-end;
+    position:absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: -1rem;
+    right: 1rem;
+    border: solid var(--five) 2px;
+    background: radial-gradient(var(--five), var(--one) 70%);
+    border-radius: 50%;
+    padding: .3rem;
+    width: 2.5rem;
+    height: 2.5rem;
+   
+    
+}
+.question>i:hover {
+    transform: scale(2);
+    transition: all 1s ease-in-out;
+    background: radial-gradient(var(--five) , var(--one));
+    
 }
 
 details {
@@ -36,13 +56,30 @@ details {
     padding: .3rem;
     margin: .5rem;
     border-radius: 5px;
+    position:relative;
+    
     
 }
 
-details>summary {
+details:hover{
     cursor: pointer;
     color: var(--four);
 }
+.superhero {
+    display:none;
+    color:blue;
+    font-size: 3rem;
+}
+.superhero:hover {
+    color:green;
+}
+details:hover + span {
+    display:block;
+    position:absolute;
+    top: -1rem;
+    left: 1rem;
+}
+
 
 details>p {
     padding: .5rem;

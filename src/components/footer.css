@@ -8,10 +8,14 @@ footer {
     background:var(--four);
     color:var(--five);
     width: 100vw;
-    height: 2.5rem; 
+    height: 3.5rem; 
     position:fixed;
     bottom: 0;
+    font-size: 1.8rem;
 }
+
+
+
 .footer-link{
     color: var(--one);
     
@@ -19,6 +23,8 @@ footer {
 
 .footer-link:hover {
     cursor: pointer;
+    transform: rotate(10deg);
+    transition: all .5s ease;
 }
 
 .footer-link>.active{

@@ -11,13 +11,15 @@ header{
     display:flex;
     flex-flow: row wrap;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    position:relative;
 }
 
 @media(max-width: 500px) {
     header{
         font-size: .7rem; 
-        padding: .5rem;
+        padding:1.5rem .5rem;
+        margin-bottom: -4rem;;
     } 
 }
 
@@ -25,4 +27,17 @@ header>div {
     border-left: var(--three) dotted 5px;
     border-right: var(--three) dotted 5px;
     padding: 0 .5rem;
+}
+
+.loader{
+     position: absolute;
+      top: 3rem;
+      left: auto;
+      z-index:10;
+      border:none;
+  }
+
+.subheader {
+    display:flex;
+    justify-content: space-between;
 }
