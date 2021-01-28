@@ -5,13 +5,14 @@
     background: var(--one);
     margin: 1rem 0;
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column nowrap;
     width: 80vw;
     height: auto;
     padding: .5rem;
     border-radius: 1rem;
     border: inset var(--two) 2px;
     position:relative;
+    
 }
 
 

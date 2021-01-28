@@ -45,7 +45,7 @@
 }
 .question>i:hover {
     transform: scale(2);
-    transition: all 1s ease-in-out;
+    transition: all 1s cubic-bezier(.19,.78,.61,.82);
     background: radial-gradient(var(--five) , var(--one));
     
 }
