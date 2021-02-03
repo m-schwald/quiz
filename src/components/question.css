@@ -40,12 +40,12 @@
   height: 2.5rem;
 }
 .question > i:hover {
-  transform: scale(2);
+  transform: scale(1.2);
   transition: all 1s cubic-bezier(0.68, -0.55, 0.27, 1.55);
   background: radial-gradient(var(--five), var(--one));
 }
 
-details {
+/* details {
   background: var(--two);
   border: var(--four) solid 1px;
   padding: 0.3rem;
@@ -57,15 +57,17 @@ details {
 details:hover {
   cursor: pointer;
   color: var(--four);
-}
+} */
 .superhero {
-  display: none;
-  color: blue;
+  color: var(--two);
+  font-size: 1rem;
+  text-align: center;
+}
+
+.superhero span {
   font-size: 3rem;
 }
-.superhero:hover {
-  color: green;
-}
+/* 
 details:hover + span {
   display: block;
   position: absolute;
@@ -76,16 +78,36 @@ details:hover + span {
 details > p {
   padding: 0.5rem;
 }
-
+ */
 .tag-container {
   display: flex;
   justify-content: center;
-  flex-flow: row wrap;
+  flex-flow: column wrap;
+  list-style: none;
 }
 .tag {
   min-width: 3rem;
-  margin: 0 1rem;
+  padding: 0 1rem;
+  color: var(--two);
 }
 .tag-container > h5 {
   align-self: flex-start;
+}
+
+.answer {
+  padding: 0.5rem;
+}
+
+.answer > p {
+  border: var(--four) solid 1px;
+  margin: 0.5rem;
+  background: var(--two);
+  border-radius: 5px;
+  position: relative;
+  padding: 0.5rem;
+}
+
+.answer p:hover {
+  cursor: pointer;
+  color: var(--four);
 }

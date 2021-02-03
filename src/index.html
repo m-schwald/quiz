@@ -6,6 +6,7 @@
     <title>Captain Quizzy</title>
     <link rel="stylesheet" href="styles.css" />
     <script src="https://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script src="app.js" defer></script>
   </head>
   <body>
     <header>
@@ -125,184 +126,114 @@
         <i class="fas fa-bookmark"></i>
         <h3>css basics</h3>
         <p>what are media-querys good for?</p>
-        <details class="myDIV">
-          <summary>show answer</summary>
-
-          <p>
+        <div class="answer">
+          <button>show answer</button>
+          <p class="disp_none">
             they are really helpful for responsive design. You can use them to
             assign different properties in relation to the size of the users
             screen.
           </p>
-        </details>
-        <span class="superhero">🤔 </span>
-        <div class="tag-container">
-          <h5>Tags:</h5>
-          <div class="tag">#forest</div>
-          <div class="tag">#snow</div>
-          <div class="tag">#fight</div>
-          <div class="tag">#village</div>
         </div>
+        <span class="superhero disp_none"
+          ><span> 🧙🏽‍♂️ </span>
+          <p>click wizard for suggestions</p>
+        </span>
+        <article class="disp_none">
+          <ul class="tag-container">
+            <li class="tag">coloring objects?</li>
+            <li class="tag">sizing fonts?</li>
+            <li class="tag">responsive design?</li>
+            <li class="tag">links?</li>
+          </ul>
+        </article>
       </section>
       <section class="question two hidden">
         <i class="far fa-bookmark"></i>
-        <h3>headline</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, harum
-          temporibus! Voluptatum nulla magnam non ipsum, ab dicta accusamus
-          necessitatibus!
-        </p>
-        <details>
-          <summary>show answer</summary>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste earum
-          molestiae sit impedit. Natus mollitia dolorum dignissimos, modi itaque
-          officiis?
-        </details>
-        <span class="superhero">🤔 </span>
-        <div class="tag-container">
-          <h5>Tags:</h5>
-          <div class="tag">#forest</div>
-          <div class="tag">#snow</div>
-          <div class="tag">#fight</div>
-          <div class="tag">#village</div>
+        <h3>js basics</h3>
+        <p>Inside which HTML element do we put the JavaScript?</p>
+        <div class="answer">
+          <button>show answer</button>
+          <p class="disp_none">
+            we put it in a script. If you put it in your HTML-head you should
+            add defer.
+          </p>
         </div>
+        <span class="superhero disp_none"
+          ><span> 🧙🏽‍♂️ </span>
+          <p>click wizard for suggestions</p>
+        </span>
+        <article class="disp_none">
+          <ul class="tag-container">
+            <li class="tag">scripting?</li>
+            <li class="tag">insert_js?</li>
+            <li class="tag">script?</li>
+            <li class="tag">js_script?</li>
+          </ul>
+        </article>
       </section>
       <section class="question three hidden">
         <i class="far fa-bookmark"></i>
-        <h3>headline</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, harum
-          temporibus! Voluptatum nulla magnam non ipsum, ab dicta accusamus
-          necessitatibus!
-        </p>
-        <details>
-          <summary>show answer</summary>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste earum
-          molestiae sit impedit. Natus mollitia dolorum dignissimos, modi itaque
-          officiis?
-        </details>
-        <span class="superhero">🤔 </span>
-        <div class="tag-container">
-          <h5>Tags:</h5>
-          <div class="tag">#forest</div>
-          <div class="tag">#snow</div>
-          <div class="tag">#fight</div>
-          <div class="tag">#village</div>
+        <h3>js basics</h3>
+        <p>How do you make the browser put up a box saying "Hello Wizard"?</p>
+        <div class="answer">
+          <button>show answer</button>
+          <p class="disp_none">alert("Hello Wizard");</p>
         </div>
+        <span class="superhero disp_none"
+          ><span> 🧙🏽‍♂️ </span>
+          <p>click wizard for suggestions</p>
+        </span>
+        <article class="disp_none">
+          <ul class="tag-container">
+            <li class="tag">msg("hello Wizard")?</li>
+            <li class="tag">msgBox("hello Wizard")?</li>
+            <li class="tag">alertBox("hello Wizard")?</li>
+            <li class="tag">alert("hello Wizard")?</li>
+          </ul>
+        </article>
       </section>
       <section class="question four hidden">
         <i class="far fa-bookmark"></i>
-        <h3>headline</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, harum
-          temporibus! Voluptatum nulla magnam non ipsum, ab dicta accusamus
-          necessitatibus!
-        </p>
-        <details>
-          <summary>show answer</summary>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste earum
-          molestiae sit impedit. Natus mollitia dolorum dignissimos, modi itaque
-          officiis?
-        </details>
-        <span class="superhero">🤔 </span>
-        <div class="tag-container">
-          <h5>Tags:</h5>
-          <div class="tag">#forest</div>
-          <div class="tag">#snow</div>
-          <div class="tag">#fight</div>
-          <div class="tag">#village</div>
+        <h3>js basics</h3>
+        <p>How do you create a function in JavaScript?</p>
+        <div class="answer">
+          <button>show answer</button>
+          <p class="disp_none">function myFunction(){};</p>
         </div>
+        <span class="superhero disp_none"
+          ><span> 🧙🏽‍♂️ </span>
+          <p>click wizard for suggestions</p>
+        </span>
+        <article class="disp_none">
+          <ul class="tag-container">
+            <li class="tag">function myFunction(){}?</li>
+            <li class="tag">func = myFunction?</li>
+            <li class="tag">func ()=> myFunction?</li>
+            <li class="tag">function = myFunction?</li>
+          </ul>
+        </article>
       </section>
       <section class="question five hidden">
         <i class="far fa-bookmark"></i>
-        <h3>headline</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, harum
-          temporibus! Voluptatum nulla magnam non ipsum, ab dicta accusamus
-          necessitatibus!
-        </p>
-        <details>
-          <summary>show answer</summary>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste earum
-          molestiae sit impedit. Natus mollitia dolorum dignissimos, modi itaque
-          officiis?
-        </details>
-        <span class="superhero">🤔 </span>
-        <div class="tag-container">
-          <h5>Tags:</h5>
-          <div class="tag">#forest</div>
-          <div class="tag">#snow</div>
-          <div class="tag">#fight</div>
-          <div class="tag">#village</div>
+        <h3>js basics</h3>
+        <p>What is the correct way to write a JavaScript array?</p>
+        <div class="answer">
+          <button>show answer</button>
+          <p class="disp_none">const colors = ["red, "green", "blue"]</p>
         </div>
+        <span class="superhero disp_none"
+          ><span> 🧙🏽‍♂️ </span>
+          <p>click wizard for suggestions</p>
+        </span>
+        <article class="disp_none">
+          <ul class="tag-container">
+            <li class="tag">const array = []</li>
+            <li class="tag">var array = ()</li>
+            <li class="tag">const = array[]</li>
+            <li class="tag">let array = {}</li>
+          </ul>
+        </article>
       </section>
-      <!--         <section class="question">
-            <i class="far fa-bookmark"></i>
-            <h3>headline</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, harum temporibus! Voluptatum nulla magnam non ipsum, ab dicta accusamus necessitatibus! </p>
-            <details>
-                <summary>show answer</summary>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste earum molestiae sit impedit. Natus mollitia dolorum dignissimos, modi itaque officiis?
-            </details>
-            <span class="superhero">🤔 </span>
-            <div class="tag-container">
-                <h5>Tags:</h5>
-                <div class="tag">#forest</div>
-                <div class="tag">#snow</div>
-                <div class="tag">#fight</div>
-                <div class="tag">#village</div>
-            </div>
-        </section>
-        <section class="question">
-            <i class="far fa-bookmark"></i>
-            <h3>headline</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, harum temporibus! Voluptatum nulla magnam non ipsum, ab dicta accusamus necessitatibus! </p>
-            <details>
-                <summary>show answer</summary>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste earum molestiae sit impedit. Natus mollitia dolorum dignissimos, modi itaque officiis?
-            </details>
-            <span class="superhero">🤔 </span>
-            <div class="tag-container">
-                <h5>Tags:</h5>
-                <div class="tag">#forest</div>
-                <div class="tag">#snow</div>
-                <div class="tag">#fight</div>
-                <div class="tag">#village</div>
-            </div>
-        </section>
-        <section class="question">
-            <i class="far fa-bookmark"></i>
-            <h3>headline</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, harum temporibus! Voluptatum nulla magnam non ipsum, ab dicta accusamus necessitatibus! </p>
-            <details>
-                <summary>show answer</summary>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste earum molestiae sit impedit. Natus mollitia dolorum dignissimos, modi itaque officiis?
-            </details>
-            <span class="superhero">🤔 </span>
-            <div class="tag-container">
-                <h5>Tags:</h5>
-                <div class="tag">#forest</div>
-                <div class="tag">#snow</div>
-                <div class="tag">#fight</div>
-                <div class="tag">#village</div>
-            </div>
-        </section>
-        <section class="question">
-            <i class="far fa-bookmark"></i>
-            <h3>headline</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, harum temporibus! Voluptatum nulla magnam non ipsum, ab dicta accusamus necessitatibus! </p>
-            <details>
-                <summary>show answer</summary>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste earum molestiae sit impedit. Natus mollitia dolorum dignissimos, modi itaque officiis?
-            </details>
-            <span class="superhero">🤔 </span>
-            <div class="tag-container">
-                <h5>Tags:</h5>
-                <div class="tag">#forest</div>
-                <div class="tag">#snow</div>
-                <div class="tag">#fight</div>
-                <div class="tag">#village</div>
-            </div>
-        </section> -->
     </main>
 
     <footer>
